@@ -1,0 +1,70 @@
+      div#header-slide {
+        background-color: #FFFFFF;
+        width: 100%;
+        margin: 0;
+        padding: 0;
+      }
+      div.main-panel {
+        color: #E5E5E5;
+        background: #484848;
+        background-image: url('images/cover.png');
+        background-repeat: no-repeat;
+        background-size: 100%;
+        width: 100%;
+        padding: 50px 0px;
+        margin-top: 80px;
+      }
+      div.main-panel p.title {
+        color: #EFEFEF;
+        font-family: "Trebuchet MS", San-Serif;
+        font-size: 250%;
+      }
+      div.main-panel p.title span.prime-text {
+        color: #FF0000;
+        font-family: "Calibri";
+        font-size: 80%;
+        font-weight: bold;
+        text-transform: uppercase;
+      }
+      .top-bar {
+        padding: 0.1px 0;
+        margin: 0px 0px;
+      }
+      a.logo {
+        font-family: "Trebuchet MS", San-Serif;
+        font-style: italic;
+        font-size: 120%;
+        font-weight: bold;
+      }
+      a.logo img {
+        diplay: inline-block;
+        height: 60px;
+        width: 100px;
+        margin-left: 10px;
+      }
+      hr.saperator {
+        margin-top: 40px;
+        margin-bottom: 10px;
+      }
+      img.back-to-top {
+        position: relative;
+        display: block;
+        height: 50px;
+        width: 50px;
+        cursor: pointer;
+        float: right;
+        bottom: 70px;
+        right: 10px;
+      }
+      div.footer-scale {
+        color: #E5E5E5;
+        background: #484848;
+        bottom: 0;
+        width: 100%;
+        font-weight: bold;
+        text-align: center;
+        padding: 15px 0px;
+      }
+      div.footer-scale span {
+
+      }

@@ -1,0 +1,69 @@
+      table.button-area {
+        width: 100%;
+        border: 0;
+        margin: 10px 0;
+        border: 0;
+      }
+
+      table.button-area tr button {
+        color: #FFFFFF;
+        background: #1690D8;
+        font-family: 'Trebuchet MS', San-Serif;
+        font-size: 90%;
+        text-align: center;
+        font-weight: bold;
+        text-transform: uppercase;
+        display: block;
+        align: center;
+        padding: 10px 30px;
+        cursor: pointer;
+        border: 2px solid #168BD8;
+        border-radius: 50px;
+        box-shadow: 2px 2px 5px #A8A8A8;
+        transition: 1s ease;
+      }
+      table.button-area tr button:hover {
+        color: #1690D8;
+        background: transparent;
+      }
+      table.button-area tr td {
+        width: 10%;
+        padding: 40px 0px;
+        border: 0;
+        border-right: 0px solid #808080;
+      }
+      table.button-area tr td:last-of-type {
+        border-right: 0;
+      }
+      table.button-area tr td div.icon-bar {
+        background-color: #484848;
+        height: 150px;
+        width: 150px;
+        margin-bottom: 20px;
+        border: 1px solid #484848;
+        border-radius: 50%;
+      }
+      table.button-area tr td div.icon-bar img {
+        height: 80px;
+        width: 80px;
+        margin-top: 28px;
+      }
+      table.button-area tr td:nth-of-type(2) div.icon-bar img {
+        height: 90px;
+        width: 90px;
+      }
+      table.button-area tr td:last-of-type div.icon-bar img {
+        height:90px;
+        width: 90px;
+      }
+      table.button-area tr td span.icon-title {
+        font-size: 140%;
+        font-weight: bold;
+        text-decoration: none;
+        text-transform: uppercase;
+        display: bold;
+      }
+      table.button-area tr td span.icon-description {
+        display: block;
+        padding: 5px 0 10px 0;
+      }

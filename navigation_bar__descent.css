@@ -1,0 +1,45 @@
+      ul#mainNav {
+        font-family: "Calibri";
+        float: right;
+        display: inline;
+        padding: 0;
+        margin: 0;
+        margin-top: 10px;
+        margin-right: 10px;
+        border-radius: 50px;
+        list-style-type: none;
+      }
+      ul#mainNav li {
+        float: left;
+        display: inline-block;
+        margin: 0;
+        margin-left: 10px;
+        border: 1px solid #AEAEAE;
+        border-radius: 50px;
+      }
+      ul#mainNav li:hover {
+      }
+      ul#mainNav a {
+        background-color: transparent;
+        font-family: "Calibri Light";
+        color: #3A3A3A;
+        font-weight: normal;
+        text-decoration: none;
+        text-transform: uppercase;
+        display: inline-block;
+        padding: 12px 28px;
+        border-radius: 50px;
+      }
+      ul#mainNav a:hover {
+        background-color: #F5F5F5;
+      }
+      ul#mainNav a.activeOpt {
+        background-color: transparent;
+        color: #168BE6;
+        font-family: "Calibri";
+        font-weight: bold;
+        cursor: default;
+      }
+      ul#mainNav a.activeOpt {
+        background-color: transparent;
+      }
